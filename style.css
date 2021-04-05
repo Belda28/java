@@ -1,0 +1,47 @@
+html{
+    display: block;
+}
+body{
+    text-align: center;
+    font-size: 20px;
+}
+.divTable
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.divTableRatio{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divTablePlayer{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divRow
+{
+    flex-direction: row;
+    display: flex;
+}
+.divCell
+{
+    flex: 1;
+    border: 1px solid black;
+}
+.divRow:nth-child(even) {
+    background-color: #dddddd;
+}
+.divRow:hover {
+    background: #28c3b5;
+}
+.headRow{
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    background: #28c3b5;
+
+}
+
